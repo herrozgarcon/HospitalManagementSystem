@@ -1,1 +1,3 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using HospitalManagementSystem.Data;
+
+using var context = new AppDbContext();
